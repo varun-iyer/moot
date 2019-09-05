@@ -1,0 +1,79 @@
+\documentclass[paper=letter,fontsize=10pt]{article}
+\usepackage{newcent}
+\usepackage{lineno}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\title{\textsc{\textit{Carpenter v. United States} Summary}}
+\date{}
+\author{\textit{Varun Iyer} \hspace{.5em} $\cdot$ \hspace{.5em} \textit{August 15, 2019}}
+\definecolor{maroon}{rgb}{.5,0,0}
+\definecolor{navy}{rgb}{0,0,.5}
+\newcommand{\pet}[1]{{\color{navy}{#1}}}
+\newcommand{\res}[1]{{\color{maroon}{#1}}}
+\newcommand{\note}[1]{{\marginpar{\ttfamily \footnotesize{#1}}}}
+\begin{document}
+\maketitle
+\section{Facts}
+	Each time a cell phone connects to a cell tower, it generates a time-stamped record known as cell-site location information (CSLI).
+	After the FBI identified the cell phone numbers of robbery suspects, they were able to obtain court orders to obtain the suspects’ cell phone records under the Stored Communications Act.
+	They were able to obtain a record of petitioner’s movements over 127 days.
+	Petitioner moved to suppress the data, arguing a Fourth Amendment violation.
+	The motion was denied and petitioner was convicted.
+\section{Procedural History}
+	The Sixth Circuit affirmed the District Court’s conviction, holding that Carpenter lacked a reasonable expectation of privacy in location information because that information was shared with his wireless carriers.
+\section{Issue}
+	\begin{enumerate}
+		\item Was the Government’s acquisition of cell-site records a Fourth Amendment search?
+		\item Does the search (if any) require a warrant?
+	\end{enumerate}
+\section{Brief Holding}
+	\begin{enumerate}
+		\item The Government’s acquisition was a search. When an individual seeks to keep something private, official intrusion into that qualifies as a search.
+		This is a complicated case because there are two intersecting interests: location data (protected by \textit{Jones}), but shared with a third party (allowed by \textit{Miller} and \textit{Smith})
+		\item This holding is narrow; the warrant is required only in the rare case where the suspect has a legitimate privacy interest in third-party records.
+	\end{enumerate}
+\section{Majority Opinion}
+	\noindent \textsc{Roberts, C.J.} \textit{writing for the Court, joined by} \textsc{JJ. Ginsburg}, \textsc{Breyer}, \textsc{Sotomayor}, \textit{and} \textsc{Kagan} \par
+	The purpose of the Fourth Amendment is to safeguard the privacy and security of individuals against arbitrary intrusion. 
+	There is no single rubric to determine which expectations of privacy are protected, but we base it off of what was deemed unreasonable when the Amendment was adopted.
+	The Court has tried to preserve the privacy that existed when the Amendment was adopted against the encroachment of technology.
+	This case sits at the intersection of conflicting jurisprudence on the expectation of privacy over one’s movements and location and the expectation of privacy over information voluntarily shared with a third party.
+	\begin{description}
+		\item{\textit{United State v. Knotts, 460 U.S. 276 (1983)}}
+			A tracking beeper does not constitute a search because a person’s movements on public roads are open to the public, with no reasonable expecation of privacy --- however, the limited use of the beeper is significant, and better surveillance technology may invalidate this.
+		\item{\textit{United States v. Jones, 565 U.S. 400 (2012)}}
+			FBI agents installed a GPS tracking device. The Court decided the case on the basis of trespass, but five justices concurred that longer term GPS monitoring impinges on expectations of privacy.
+		\item{\textit{Smith v. Maryland, 442 U.S. 735 (1979)}}
+			A person has no legitimate expectation of privacy in information he voluntarily shares with third parties; a person simply assumes the risk that it will be transmitted to the government.
+		\item{\textit{United States v. Miller, 425 U.S. 435 (1976)}}
+			...even if the information is revealed on the assumption that it will be used only for a limited purpose
+	\end{description}
+	The Court does not apply \textit{Smith} and \textit{Miller} because 
+	few could have imagined a society in which a phone is carried with its owner and can reveal personal movements.
+	People do not surrender all Fourth Amendment protection by venturing into public; there are still things that they can keep private.
+	Society does not expect that law enforcement could not monitor every single movement for a very long period.
+	Location records hold all the privacies of life.
+	Cell phone tracking is cheap and easy, and allows limitless invasion of privacy.
+	If the Government didnt’s need a warrant to collect this information, then the government would effectively be surveiling every person all the time.
+	Justice Kennedy argues that because CSLI is less precise than GPS data, it is not an invasion of privacy.
+	However, an “inference does not insulate a search,” so these things are effectively the same.
+	The memories of the logs of corporations are infallible and permanent.
+	Applying the third party doctrine would not be a simple application but a huge extension to a new kind of data.
+	This is not just a person’s movements on public roads but a complete and exhaustive chronicle of every movement of an individual for years and years.
+	Cell phone location information is not truly “shared” as one normally understands the term.
+	This decision does not cover CSLI in real time or tower dumps.
+	We do not disturb \textit{Smith} and \textit{Miller} or call into question normal surveillance techniques.
+	In the absence of a warrant, a search is reasonable only if it falls within a specific exception to the warrant requirement.
+	The standards for the SCA are far lower than those for a warrant.
+	The order is not a permissible mechanism for obtaining CSLI.
+	Alito contends that the warrant requrement does not apply when you go through ome subpoena process.
+	However, this is stupid because Alito’s cases don’t compare.
+
+
+\section{Dissenting Opinion}
+	\noindent \textsc{Kennedy, J.} \textit{dissenting, joined by} \textsc{Thomas}, \textit{and} \textsc{Alito, JJ.} \par
+	\noindent \textsc{Thomas, J.} \textit{dissenting.}
+	\noindent \textsc{Alito, J.} \textit{dissenting.}
+	\noindent \textsc{Gorsuch, J.} \textit{dissenting.}
+\end{document}
